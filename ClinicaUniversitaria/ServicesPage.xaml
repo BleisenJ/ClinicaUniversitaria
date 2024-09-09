@@ -1,0 +1,17 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClinicaUniversitaria.ServicesPage"
+             BackgroundColor="{StaticResource SecondaryColor}">
+    <StackLayout Padding="10">
+        <Label Text="Nuestros Servicios" 
+               FontSize="24" 
+               TextColor="{StaticResource TextColor}"
+               HorizontalOptions="Center" />
+        <!-- Puedes agregar aquí más servicios con íconos si lo deseas -->
+        <Button Text="Regresar"
+                Clicked="OnBackButtonClicked"
+                BackgroundColor="{StaticResource AccentColor}"
+                TextColor="White"
+                HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>

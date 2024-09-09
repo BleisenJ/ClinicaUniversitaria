@@ -1,0 +1,24 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClinicaUniversitaria.MainPage"
+             BackgroundColor="{StaticResource PrimaryColor}">
+    
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="¡Bienvenido a la Clínica Universitaria!"
+               FontSize="24" 
+               TextColor="{StaticResource TextColor}"
+               HorizontalOptions="Center" />
+        
+        <Button Text="Ver Servicios"
+                Clicked="OnServicesButtonClicked"
+                BackgroundColor="{StaticResource AccentColor}"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+        <Button Text="Formulario de Médico" 
+                Clicked="OnMedicoFormButtonClicked" 
+                BackgroundColor="Purple" 
+                TextColor="White"/>
+        
+    </StackLayout>
+</ContentPage>
